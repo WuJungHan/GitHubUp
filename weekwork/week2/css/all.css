@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before,*:after{
+              box-sizing:border-box;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*layout*/
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.container{
+  font-family: "微軟正黑體";
+  width: 1920px;
+}
+/*layout*/
+
+/*class style*/
+.title{
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: bold;
+}
+
+.bd{
+  border: 1px solid #707070;
+}
+
+.bd-b{
+  border-bottom: 1px solid #707070;
+}
+
+.bd-t{
+  border-top: 1px solid #707070;
+}
+
+.m0-a{
+  margin: 0 auto;
+}
+
+.ta-c{
+  text-align: center;
+}
+
+.dpbk{
+  display: block;
+}
+
+.dpfx{
+  display: flex;
+}
+
+.fxd-c{
+  flex-direction: column;
+}
+
+.jc-c{
+  justify-content: center;
+}
+
+.jc-sb{
+  justify-content: space-between;
+}
+
+.ai-c{
+  align-items: center;
+}
+
+.lh30{
+  line-height: 30px;
+}
+
+.lh36{
+  line-height: 36px;
+}
+
+.lh42{
+  line-height: 42px;
+}
+
+.lh94{
+  line-height: 94px;
+}
+
+.fw-b{
+  font-weight: bold;
+}
+
+/*.fs-i{
+  font-style: italic;
+}*/
+
+.fz20{
+  font-size: 20px;
+}
+
+.fz24{
+  font-size: 24px;
+}
+
+.fz80{
+  font-size: 80px;
+}
+
+.mt16{
+  margin-top: 16px;
+}
+
+
+.mt24{
+  margin-top: 24px;
+}
+
+.mt32{
+  margin-top: 32px;
+}
+
+.mt40{
+  margin-top: 40px;
+}
+
+.mt48{
+  margin-top: 48px;
+}
+
+.mt56{
+  margin-top: 56px;
+}
+
+.mt60{
+  margin-top: 60px;
+}
+
+.mt68{
+  margin-top: 68px;
+}
+
+.mt160{
+  margin-top: 160px;
+}
+
+.pt32{
+  padding-top: 32px;
+}
+
+.pt64{
+  padding-top: 64px;
+}
+
+.pb80{
+  padding-bottom: 80px;
+}
+
+.pb160{
+  padding-bottom: 160px;
+}
+
+.w384{
+  width: 384px;
+}
+
+.w488{
+  width: 488px;
+}
+
+.w792{
+  width: 792px;
+}
+
+.w1200{
+  width: 1200px;
+}
+
+.c-w{
+  color: white;
+}
+
+.li-disc-c-red{
+  list-style:none;
+  text-indent: -5px;
+  padding-left: 15px;
+}
+
+.li-disc-c-red:before{
+  width: px;
+  font-size: 20px;
+  content:"●";
+  color:#891818;
+  display:inline-block;
+}
+/*.ws-nw{
+  white-space:nowrap;
+}*/
+/*class style*/
+
+.banner{
+  height: 954px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true);
+  background-position:center;
+}
+
+.introduction{
+  width: 330px;
+}
+
+.introduction img{
+  transition:0.3s;
+}
+
+.introduction img:hover{
+  background: #FFD9EC;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.about{
+  width: 440px;
+}
+
+.brand{
+  background: #000;
+}
+
+.other-work{
+  width: 1200px;
+}
+
+.other-work p{
+  padding-top: 16px;
+}
+
+.other-work a{
+  transition: 0.3s;
+}
+
+.other-work a:hover{
+  box-shadow:3px 3px 10px 10px #8E8E8E;
+}
+
+.contact{
+  background: #000;
+}
+
+.contact a{
+  transition:0.3s;
+}
+
+.contact a:hover{
+  font-size: 28px;
+  color:#FFD9EC;
+}
+
+/*lightbox*/
+.lightboxOverlay{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:9999;
+  background-color:	#000000;
+  filter:alpha(Opacity=80);
+  opacity:0.8;
+  display:none;
+}
+
+/*燈箱相片下的文字用!important最高權限取消*/
+ .lb-data .lb-caption{
+   display:none !important;
+}
+
+  
