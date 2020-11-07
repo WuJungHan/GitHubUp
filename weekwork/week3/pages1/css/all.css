@@ -1,0 +1,709 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before,*:after{
+              box-sizing:border-box;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*layout*/
+body{
+  font-family: "微軟正黑體";
+}
+a{
+  text-decoration: none;
+  transition: 0.3s;
+}
+.header{
+  background: #AA0601;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.header-menu{
+  width: 500px;
+}
+.header-menu li{
+  width: 25%;
+}
+.header-menu li a{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  display:block;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer{
+  background:#AA0601;
+  padding: 36px;
+}
+.footer-about{
+  max-width: 470px;
+  margin-bottom: 24px;
+}
+.footer-link{
+  border-bottom: 1px solid #FFFFFF;
+}
+.footer li a{
+  display:block;
+  color: #fff;
+}
+.footer-menu{
+  margin-bottom: 32px;
+}
+.footer-menu li{
+  width: 20%;
+}
+.footer-menu li a{
+ padding: 5%;
+ text-align: center;
+ line-height: 24px;
+}
+.footer-about .footer-tel-mail a{
+  font-size: 36px;
+  line-height: 54px;
+}
+.footer-about .footer-tel-mail img{
+  margin-right: 17px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.footer-tel-mail{
+  max-width: 500px;
+}
+.footer-icon{
+  max-width: 200px;
+}
+.footer-icon li{
+  text-align: center;
+  margin-right: 15px;
+  width: 33.3333%;
+}
+.footer-content{
+  padding-top: 24px;
+  padding-bottom: 28px;
+}
+.footer-logo img{
+  margin-right: 38px;
+}
+.footer-logo p{
+  line-height: 24px;
+}
+.footer-terms {
+  max-width: 200px;
+}
+.footer-terms li a{
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 21px;
+}
+.header-menu li a:hover,.footer-menu li a:hover,.footer-about .footer-tel-mail a:hover,.footer-terms li a:hover,.footer-icon li a:hover{
+  background: #FF7575;
+  border-radius: 20px 20px 20px 20px;
+}
+/*layout over*/
+
+/*樣式*/
+.frame{
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
+.title{
+  font-size: 48px;
+  line-height: 72px;
+  color: #650300;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.flex{
+  display:flex;
+}
+.jc-sb{
+  justify-content: space-between;
+}
+.jc-fe{
+  justify-content: flex-end;
+}
+.jc-sd{
+  justify-content: space-around;
+}
+.jc-c{
+  justify-content: center;
+}
+.ai-c{
+  align-items: center;
+}
+.main-color{
+  color: #fff;
+}
+.read-content{
+  max-width: 1200px;
+}
+.ta-c{
+  text-align: center;
+}
+.m0-a{
+  margin: 0 auto;
+}
+.pt-3{
+  padding-top: 30px;
+}
+.pb-3{
+  padding-bottom: 30px;
+}
+.mt-2{
+  margin-top: 20px;
+}
+
+/*pages1 class*/
+/*banner*/
+.banner{
+  height: 840px;
+  color: #650300;
+  font-weight: bold;
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true);
+}
+.banner-sale-word{
+  margin-right: 5%;
+}
+.banner h1{
+  font-size: 36px;
+  line-height: 54px;
+}
+.banner p{
+  font-size: 64px;
+  line-height: 96px;
+}
+/*features*/
+.features{
+  background: #AA06010D;
+}
+.features-card img{
+  margin-bottom: 40px;
+}
+.features-card{
+  font-weight: bold;
+  width: 208px;
+}
+.features-card h3{
+  font-size: 24px;
+  line-height: 36px;
+  color: #650300;
+}
+.features-card p{
+  line-height: 24px;
+  text-align: left;
+}
+/*product*/
+.product{
+  background: #fff;
+}
+.product li{
+  margin-bottom: 30px;
+}
+.product-optical-img{
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-1.png?raw=true);
+}
+.product-sunglasses-img{
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-2.png?raw=true);
+}
+.product-functional-img{
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-3.png?raw=true);
+}
+.product-optical-img,.product-sunglasses-img,
+.product-functional-img{
+  width: 635px;
+  height: 320px;
+}
+.product-optical-icon{
+  width: 48px;
+  height: 37.73px;
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/week3/icon-diamond.svg);
+}
+.product-sunglasses-icon{
+  width: 48px;
+  height: 48px;
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/week3/icon-sun.svg);
+}
+.product-functional-icon{
+  width: 35.2px;
+  height: 48px;
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/week3/icon-thunder.svg);
+}
+.product-category{
+  margin: 30px; 
+}
+.product-category h3{
+  font-size: 48px;
+  line-height: 72px;
+  color: #AA0601;
+  font-weight: bold;
+  font-style: italic;
+}
+.product li:nth-child(2){
+  flex-direction: row-reverse;
+}
+.product-optical-img-rwd767,.product-sunglasses-img-rwd767,.product-functional-img-rwd767{
+  display: none;
+}
+.product-optical-img-rwd767-icon{
+  width: 32px;
+  height: 25.16px;  
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/week3/icon-diamond-white.svg);
+}
+.product-sunglasses-img-rwd767-icon{
+  width: 32px;
+  height: 32px;
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/week3/icon-sun-white.svg);
+}
+.product-functional-img-rwd767-icon{
+  width: 23px;
+  height: 32px;
+  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/week3/icon-thunder-white.svg);
+}
+.product-optical-img-rwd767 h3,.product-sunglasses-img-rwd767 h3,.product-functional-img-rwd767 h3{
+  font-size: 28px;
+  line-height: 42px;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+}
+/*special*/
+.special{
+  height: 743px;
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true);
+}
+.special .title span{
+  color: #fff;
+}
+.joint-name{
+  max-width: 1200px;
+}
+.special .joint-name-bg{
+  width: 50%;
+  background: #fff;
+  margin: 15px;
+}
+.joint-name-dobA{
+  height: 472px;
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true);
+  background-size: cover;
+}
+.joint-name-youth{
+  height: 472px;
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true);
+  background-size: cover;
+}
+.joint-name-dobA,.joint-name-youth{
+  opacity: 0.6;
+}
+.joint-name-dobA h3,.joint-name-youth h3{
+  font-size: 72px;
+  line-height: 107px;
+  color:#AA0601;
+  font-weight: bold;
+}
+/*recommend*/
+.recommend .recommend-card{
+  max-width: 255px;
+  border:1px solid #DEE2E6;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.recommend-card-word{
+  padding: 16px;
+}
+.recommend .recommend-card p{
+  line-height: 24px;
+  margin-bottom: 7px;
+}
+.recommend .recommend-card span{
+  color: #707070;
+}
+/*connection*/
+.connection{
+  background: #AA06010D;
+  height: 887px;
+}
+.connection .read-content{
+  max-width: 730px;
+}
+.connection .title{
+  color: #000;
+}
+.connection p,.connection label,.connection-data span{
+  font-weight: bold;
+  line-height: 24px;
+}
+.connection P{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.connection input,.connection textarea{
+  width: 100%;
+  resize: none;
+  margin-bottom: 16px;
+  background-color:transparent;
+  border: 1px solid #000000;
+  padding: 16px;
+}
+.connection input{
+  height: 50px;
+}
+.connection textarea{
+  height: 136px;
+}
+.connection .connection-data-checkbox,.connection-data span{
+  vertical-align:middle; 
+}
+.connection .connection-data-checkbox{
+  margin: 0;
+  height: 24px;
+  width: 24px;
+}
+.connection-data span{
+  margin-left: 5px;
+}
+.connection .connection-data-btn{
+  margin-top: 42px;
+  max-width: 350px;
+  height: 54px;
+}
+.connection .connection-data-btn input{
+  color: #fff;
+  background: #AA0601;
+  border: none;
+  transition:0.3s;
+}
+.connection .connection-data-btn input:hover{
+  background: #FF7575;
+}
+
+
+/*rwd layout*/
+/*pad992px*/
+@media(max-width:992px){
+  .title{
+   font-size: 32px;
+   line-height: 48px;
+   margin-bottom: 32px;
+ }
+
+  .footer-logo a{
+    display:none;
+  }
+  .footer{
+    padding: 40px;
+  }
+}
+/*phone767px*/
+@media(max-width:767px){
+  .title{
+   font-size: 24px;
+   line-height: 48px;
+   margin-bottom: 20px;
+ }
+
+  .header{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+  .header-logo{
+    margin-bottom: 10px;
+  }
+  .header-menu{
+    max-width:375px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-menu li{
+    width: 50%;
+    border: 1px solid #fff;
+  }
+
+ 
+  .footer-icon li{
+   max-width: 100px;
+  }
+  .footer-icon li img{
+    width: 24px;
+    height: 24px;
+  }
+  .footer-about .footer-tel-mail a{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .footer-tel-mail{
+  max-width: 250px;
+  }
+  .footer-tel-mail img{
+    width: 20px;
+    height: 20px;
+  }
+  .footer-content{
+   position: relative;
+  }
+  .footer-logo a{
+   display:block;
+   position: absolute;
+   bottom: 10px;
+   right: 0;
+  }
+  .footer-menu{
+    display:none;
+  }
+  .footer-content{
+    flex-direction: column;
+  }
+  .footer-terms{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+/*rwd layout over*/
+
+/*rwd*/
+/*pad992px*/
+/*frame*/
+@media(max-width:992px){
+ .frame{
+   padding-top: 40px;
+   padding-bottom: 40px;
+ }
+/*banner*/
+ .banner{
+   background-position:center;
+ }
+ .banner h1{
+  font-size: 20px;
+  line-height: 30px;
+ }
+ .banner p{
+  font-size: 48px;
+  line-height: 72px;
+ }
+
+ /*features*/
+ .features ul{
+   flex-wrap:wrap;
+   padding-right: 85px;
+   padding-left: 85px;
+ }
+ .features li{
+   width: 40%;
+   margin-bottom: 40px;
+ }
+/*product*/
+ .product{
+   padding-left: 39px;
+ }
+ .product li{
+  margin-bottom: 8px;
+ }
+ .product-optical-img,.product-sunglasses-img,.product-functional-img{
+   width: 390px;
+   height: 168px;
+   background-size: cover;
+ }
+ .product li:nth-child(2){
+  flex-direction: row;
+ }
+ .product-category h3{
+  font-size: 28px;
+  line-height: 42px;
+ }
+ .product-optical-icon,.product-sunglasses-icon,.product-functional-icon{
+   background-size: cover;
+ }
+ .product-optical-icon{
+   width: 32px;
+   height: 25.16px;
+  }
+  .product-sunglasses-icon{
+    width: 32px;
+    height: 32px;
+  }
+  .product-functional-icon{
+    width: 23px;
+    height: 32px;
+  }
+/*special*/
+  .special{
+    height: 437px;
+  }
+  .special .joint-name{
+    max-width: 992px;
+  }
+  .special .joint-name-dobA,.special .joint-name-youth{
+    height: 280px;
+    background-size: cover;
+  }
+  .special .joint-name-dobA h3,.special .joint-name-youth h3{
+    font-size: 32px;
+    line-height: 25px;
+  }
+/*recommend*/  
+  .recommend-content{
+    max-width: 992px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .recommend .recommend-card,.recommend img{
+    max-width: 330px;
+  }
+  .recommend .recommend-card{
+    margin-bottom: 28px;
+  }
+  .recommend .recommend-card-word{
+    max-width: 325px;
+  }
+/*connection*/
+  .connection .read-content{
+    max-width: 450px;
+  }
+  .connection-data span{
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .connection .connection-data-checkbox{
+  height: 17.63px;
+  width: 17.63px;
+}
+  .connection .connection-data-btn{
+    max-width: 210px;
+    height: 36px;
+  }
+
+/*phone767px*/
+@media(max-width:767px){
+  .frame{
+   padding-top: 32px;
+   padding-bottom: 32px;
+ }
+/*banner*/
+  .banner{
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-sm.png?raw=true);
+  }
+  .banner h1{
+  font-size: 16px;
+  line-height: 30px;
+ }
+ .banner p{
+  font-size: 32px;
+  line-height: 72px;
+ }
+
+ .features li{
+   width: 100%;
+ }
+/*product*/
+ .product{
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+ .product-category{
+   display: none;
+ }
+ .product ul{
+   max-width: 767px;
+   margin: 0 auto;
+   text-align: center;
+ }
+ .product-optical-img,.product-sunglasses-img,.product-functional-img{
+   width: 345px;
+   height: 134px;
+   margin: 0 auto;
+ }
+ .product-optical-img-rwd767,.product-sunglasses-img-rwd767,.product-functional-img-rwd767{
+  display: flex;
+}
+/*special*/
+  .special{
+    height: 730px;
+  }
+  .special .joint-name{
+    max-width: 767px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .special .joint-name-bg{
+    width: 345px;
+  }
+  .special .joint-name-dobA,.special .joint-name-youth{
+   height: 284px;
+  }
+/*recommend*/ 
+  .recommend-content{
+    max-width: 767px;
+  }
+  .recommend .recommend-card,.recommend img{
+    max-width: 345px;
+  }
+  .recommend .recommend-card{
+    margin-bottom: 28px;
+  }
+/*connection*/
+  .connection .read-content{
+    max-width: 345px;
+  }
+  .connection .connection-data-btn{
+    max-width: 165px;
+  }
+}
