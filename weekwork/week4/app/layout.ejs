@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="./assets/style/all.css?15159">
+</head>
+
+<!--layout新增或修改處-->
+
+<body>
+  <nav class="nav d-flex jc-between">
+    <div class="logo">
+      <a href="/dist/index.html">
+        <h1>眼鏡網站</h1>
+      </a>
+    </div>
+    <ul class="menu d-flex jc-between ai-center text-center">
+      <li><a href="#">系列鏡框</a></li>
+      <li><a href="/dist/index.html">門市據點</a></li>
+      <li><a href="#">部落格</a></li>
+      <li><a href="#">常見問題</a></li>
+    </ul>
+  </nav>
+
+  <header class="header">
+    <div class="read-container d-flex ai-end">
+      <div class="text d-flex ai-center">
+        <h2>門市據點</h2>
+        <img
+          src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-location.svg"
+          alt="">
+      </div>
+    </div>
+  </header>
+
+  <%- contents %>
+
+  <footer class="footer">
+    <div class="read-container">
+      <div class="content d-flex jc-between">
+        <div class="menu-tel-emil-wrap">
+          <ul class="menu d-flex jc-between">
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">系列鏡框</a></li>
+            <li><a href="/dist/index.html">門市據點</a></li>
+            <li><a href="#">部落格</a></li>
+            <li><a href="#">常見問題</a></li>
+          </ul>
+          <div class="tel d-flex ai-center">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-phone.svg"
+              alt="">
+            <a href="#">
+              <p>0800-000-000</p>
+            </a>
+          </div>
+          <div class="email d-flex ai-center">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-mail.svg"
+              alt="">
+            <a href="#">
+              <p>glasses@business.com</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="icon d-flex jc-between">
+          <a href="#"><img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-fb.svg"
+              alt=""></a>
+          <a href="#"><img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-ig.svg"
+              alt=""></a>
+          <a href="#"><img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-line.svg"
+              alt=""></a>
+        </div>
+      </div>
+
+      <div class="logo-text-privacy-wrap d-flex jc-between">
+        <div class="logo-text d-flex ai-center">
+          <a href="/dist/index.html">
+            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true" alt="">
+          </a>
+          <p>Copyright © 2020 Glasses.All rights reserved.</p>
+        </div>
+
+        <ul class="privacy d-flex">
+          <li><a href="#">隱私權政策</a></li>
+          <li><a href="#">服務條款</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
