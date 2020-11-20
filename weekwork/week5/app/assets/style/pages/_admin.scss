@@ -1,0 +1,26 @@
+.admin{
+  .hover-color-primary{
+    &:hover{
+      color: #2A8356;
+    }
+  }
+  .modal{
+    img{
+      width: 141px;
+      height: 141px;
+    }
+  }
+
+  .pagination{
+    a{
+      color: #2A8356;
+      border: 1px solid ;
+      &:hover{
+        background: #2A8356;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,16 @@
+.nav-bar{
+  span{
+    margin-right: 16px;
+  }
+  a{
+    display:block;
+    font-weight: bold;
+    padding-left: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 24px;
+    &:hover{
+      background: #CDDDCD;
+    }
+  }
+}

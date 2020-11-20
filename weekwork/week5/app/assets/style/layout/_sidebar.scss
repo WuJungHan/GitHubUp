@@ -1,0 +1,39 @@
+.sidebar{
+  width: 296px;
+  padding-top: 40px;
+  background: #EDF4EE;
+  position: relative;
+  .user{
+    position: absolute;
+    bottom: 0;
+  }
+  .logo{
+    margin-left: 32px;
+    height: 40px;
+    width: 151px;
+    background: url(https://upload.cc/i1/2020/11/18/FLYKnu.png);
+    h1{
+      text-indent: 101%;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+ img{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+ }
+ h5{
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: bold;
+ }
+ p{
+   font-size: 14px;
+   line-height: 24px;
+ }
+
+  img{
+    margin-left: 32px;
+  }
+}

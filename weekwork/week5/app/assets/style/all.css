@@ -1,0 +1,307 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 984px;
+  padding: 32px;
+}
+
+.read-container {
+  width: 918px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.bd-bottom {
+  border-bottom: 1px solid;
+  padding-bottom: 25px;
+}
+
+.bd-primary {
+  border-color: #CDDDCD;
+}
+
+.mybd-primary {
+  background-color: #EDF4EE;
+}
+
+.sidebar {
+  width: 296px;
+  padding-top: 40px;
+  background: #EDF4EE;
+  position: relative;
+}
+
+.sidebar .user {
+  position: absolute;
+  bottom: 0;
+}
+
+.sidebar .logo {
+  margin-left: 32px;
+  height: 40px;
+  width: 151px;
+  background: url(https://upload.cc/i1/2020/11/18/FLYKnu.png);
+}
+
+.sidebar .logo h1 {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sidebar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.sidebar h5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.sidebar p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.sidebar img {
+  margin-left: 32px;
+}
+
+.nav-bar span {
+  margin-right: 16px;
+}
+
+.nav-bar a {
+  display: block;
+  font-weight: bold;
+  padding-left: 32px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 24px;
+}
+
+.nav-bar a:hover {
+  background: #CDDDCD;
+}
+
+.assignment:hover span {
+  margin-left: -4px;
+}
+
+.assignment:hover a {
+  color: #2A8356;
+  border-left: 4px solid #2A8356;
+}
+
+.container p {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.container h5 {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+}
+
+.container h4 {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+}
+
+.container h2 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bold;
+}
+
+.header {
+  margin-bottom: 44px;
+}
+
+.header h2 {
+  margin-right: 46px;
+}
+
+.header .search {
+  margin-right: 26px;
+  color: #000;
+}
+
+.header .news {
+  color: #000;
+}
+
+.btn-secondary {
+  background: #fff;
+  color: #000;
+  border: 0px;
+  font-weight: bold;
+}
+
+.assignment-content {
+  position: relative;
+}
+
+.assignment-content .dropdown-menudropdown-menu {
+  width: 320px;
+}
+
+.assignment-content .dropdown-menu {
+  border: 0px solid #CDDDCD;
+}
+
+.assignment-content .dropdown-item {
+  border: 1px solid  #CDDDCD;
+}
+
+.assignment-content .dropdown-item:hover {
+  background: #EDF4EE;
+}
+
+.assignment-content .card {
+  width: 584px;
+  margin-bottom: 16px;
+}
+
+.assignment-content .card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.assignment-content .card .media-body p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.assignment-content .card .media-body p span {
+  background: #CDDDCD;
+  color: #2A8356;
+}
+
+.assignment-content .card .media-body .download-btn {
+  color: #000;
+  background: #EDF4EE;
+  border: 1px solid #CDDDCD;
+  padding: 10px 12px;
+}
+
+.assignment-content .card .media-body .download-btn:hover {
+  background: #CDDDCD;
+}
+
+.assignment-content .card-footer {
+  background: #fff;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.assignment-content .card-footer .change-card span {
+  margin-right: 23px;
+}
+
+.assignment-content .card-footer .mark {
+  margin-right: 16px;
+  border: 1px solid #2A8356;
+  color: #2A8356;
+}
+
+.assignment-content .card-footer .mark:hover {
+  background: #EDF4EE;
+}
+
+.assignment-content .card-footer .reply {
+  background: #2A8356;
+  color: #fff;
+}
+
+.assignment-content .card-footer .reply:hover {
+  color: #2A8356;
+  background: #CDDDCD;
+}
+
+.assignment-content .CKEditor5 {
+  position: absolute;
+  bottom: 0;
+  z-index: 5;
+  /*display:none;*/
+}
+
+.assignment-content .CKEditor5 .ck-editor__editable {
+  width: 584px;
+  height: 319px;
+}
+
+.assignment-content .CKEditor5 .cancel {
+  width: 112px;
+  position: absolute;
+  z-index: 10;
+  right: 170px;
+  bottom: 20px;
+}
+
+.assignment-content .CKEditor5 .reply {
+  width: 112px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10;
+}
+
+.admin .hover-color-primary:hover {
+  color: #2A8356;
+}
+
+.admin .modal img {
+  width: 141px;
+  height: 141px;
+}
+
+.admin .pagination a {
+  color: #2A8356;
+  border: 1px solid;
+}
+
+.admin .pagination a:hover {
+  background: #2A8356;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=all.css.map */
