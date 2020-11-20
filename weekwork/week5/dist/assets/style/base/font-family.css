@@ -1,0 +1,18 @@
+.nav-bar span {
+  margin-right: 16px; }
+
+.nav-bar a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding-left: 32px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  .nav-bar a:hover {
+    background: #CDDDCD; }
+
+.nav-bar .assignment a {
+  color: #2A8356;
+  border-left: 4px solid #2A8356; }
+
+/*# sourceMappingURL=font-family.css.map */
