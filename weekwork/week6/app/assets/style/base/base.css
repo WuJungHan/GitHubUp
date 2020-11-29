@@ -1,0 +1,54 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: PingFangTC-Regular, sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.font-size-my1 {
+  font-size: 4px;
+}
+
+.font-size-my2 {
+  font-size: 8px;
+}
+
+.font-size-my3 {
+  font-size: 12px;
+}
+
+.font-size-my4 {
+  font-size: 16px;
+}
+
+.font-size-my5 {
+  font-size: 20px;
+}
+
+.font-size-my6 {
+  font-size: 24px;
+}
+
+.font-size-my7 {
+  font-size: 32px;
+}
+
+.font-size-my8 {
+  font-size: 40px;
+}
+
+.font-size-my9 {
+  font-size: 48px;
+}
+/*# sourceMappingURL=base.css.map */

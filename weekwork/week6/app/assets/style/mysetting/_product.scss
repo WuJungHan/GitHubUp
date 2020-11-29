@@ -1,0 +1,13 @@
+.card-img-height{
+  height: 255px;
+}
+
+.page-link{
+  color: #000;
+  border: 0px solid #000;
+  &:hover{
+  background: #fff;
+  color: #916019;
+  border-bottom: 1px solid #916019;
+}
+}

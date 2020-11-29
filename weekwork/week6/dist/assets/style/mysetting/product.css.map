@@ -1,0 +1,1 @@
+{"version":3,"sources":["mysetting/product.scss"],"names":[],"mappings":"AACE;EACE,YAAY;EACZ,aAAa,EAAA;;AAEf;EACE,YAAY,EAAA","file":"product.css","sourcesContent":[".business-card{\r\n  &-img{\r\n    width: 555px;\r\n    height: 555px;\r\n  }\r\n  &-text{\r\n    width: 350px;\r\n  }\r\n}"]}

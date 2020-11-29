@@ -1,0 +1,63 @@
+.image-banner{
+  background: transparent url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true) 0% 0% no-repeat padding-box;
+  background-position: center;
+  background-size: cover;
+  &-height{
+  height: 870px;
+ }
+ &-btn{
+   height: 60px;
+   border: 2px solid #FFFFFF;
+   text-align: center;
+   transition: 0.3s;
+   &:hover{
+      background:rgba(255,255,255,0.3);
+   }
+ }
+}
+
+.business-card-height{
+  height: 680px;
+  @media (min-width: 768px) {
+  height: 1080px;
+  }
+}
+
+.business-card-btn{
+  width: 350px;
+  height: 60px;
+}
+
+.upright-card-height{
+  height: 540px;
+}
+
+.subscription{
+  &-banner{
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index10.jpg?raw=true);
+  background-size: cover;
+  background-position: center;
+  }
+  &-height{
+    height: 600px;
+  }
+  &-input{
+  border: 2px solid #916000;
+  border-radius: 4px;
+  height: 60px;
+  }
+  &-btn{
+    margin-left: -5px;
+    height: 60px;
+  }
+}
+
+.sold-out{
+  width: 330px;
+  height: 540px;
+  opacity: 0.5;
+  background: #000;
+  &-text{
+    margin-top: 545px;
+  }
+}
